@@ -11,7 +11,9 @@
 #run php artisan migrate
 
 
-#run php artisan make:seed AdvertisementSeeder
+#run php artisan db:seed --class=AdvertisementSeeder
 
 
-#run php artisan make:seed BannerSeeder
+#run php artisan db:seed --class=BannerSeeder
+
+
